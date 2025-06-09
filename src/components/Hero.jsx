@@ -97,6 +97,8 @@ const Hero = () => {
                 2000,
                 "UI/UX Designer",
                 2000,
+                "Level Designer",
+                2000,
                 "Video Editor",
                 2000,
                 "Graphics Designer",

@@ -9,6 +9,9 @@ import SafeMount from "./components/SafeMount";
 import Skills from "./components/Skills";
 import DesignGallery from "./components/DesignGallery"; // ✅ already imported
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Education from "./components/Education"; 
+import Contact from "./components/Contact";
 
 // Placeholder component (still used for other sections)
 const Placeholder = ({ id, title }) => (
@@ -52,10 +55,15 @@ function App() {
         <SafeMount delay={50}>
           <Projects />
         </SafeMount>
-
-        <Placeholder id="work" title="Work" />
-        <Placeholder id="education" title="Education" />
-        <Placeholder id="contact" title="Contact" />
+        <SafeMount delay={60}>
+           <Experience />
+        </SafeMount>
+        <SafeMount delay={70}>
+          <Education />
+        </SafeMount>
+        <SafeMount delay={80}>
+          <Contact />
+        </SafeMount>
       </div>
 
       {/* Scroll indicator */}
